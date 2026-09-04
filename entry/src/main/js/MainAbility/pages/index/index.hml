@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="content">
+        <div class="body">
+            <text class="title">{{title}}</text>
+            <list class="descriptionList">
+                <list-item class="descriptionItem" for="{{items}}" tid="id">
+                    <text class="description">{{$item.value}}</text>
+                </list-item>
+            </list>
+        </div>
+    </div>
+</div>

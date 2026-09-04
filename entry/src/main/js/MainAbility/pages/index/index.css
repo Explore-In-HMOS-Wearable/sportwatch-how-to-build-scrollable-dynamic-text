@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 0px 8px 0px;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 70%;
+  height: 18%;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 8px;
+  text-overflow: ellipsis;
+}
+
+.descriptionList {
+  width: 70%;
+  height: 76%;
+}
+
+.descriptionItem {
+  width: 100%;
+  height: 28px;
+}
+
+.description {
+  width: 100%;
+  height: 28px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #D7D7D9;
+  text-align: center;
+}
